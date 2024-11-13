@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Culinaryndo</string>
+    <string name="title_home">Home</string>
+    <string name="title_bookmark">Boookmark</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_scan" tools:ignore="UnusedResources">Scan</string>
+    <string name="scan_button">Scan button</string>
+    <string name="username">Username</string>
+    <string name="email">user@gmail.com</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="bookmark_count">0</string>
+    <string name="history">History</string>
+    <string name="history_count">0</string>
+    <string name="title_setting_profile">Setting Profile</string>
+    <string name="title_terms_and_condition">Terms and Condition</string>
+    <string name="title_logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" tools:ignore="UnusedResources">Hello blank fragment</string>
+    <string name="btn_update">Save Changes</string>
+    <string name="ed_new_password">New Password</string>
+    <string name="ed_old_password">Old Password</string>
+    <string name="ed_email_address">Email Address</string>
+    <string name="ed_username">Username</string>
+    <string name="ed_fullname">Fullname</string>
+    <string name="edit_image_description">Edit Image</string>
+    <string name="scan_title">Scan Your Food</string>
+    <string name="loading_analyse_titile">Analyse Image...</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet consectetur. Dolor dolor egestas duis elementum consectetur. Malesuada enim metus velit sit rhoncus neque et massa eu. Risus pellentesque faucibus odio quam pretium a odio arcu auctor. Eget aliquam mi lacus massa et. Eu vitae elit vehicula at massa mollis augue mollis. Felis dui eget euismod quisque nulla sed amet. Facilisi sed leo etiam suspendisse suspendisse pharetra aliquam massa. Nibh tincidunt turpis lorem purus risus suspendisse leo. Dui consectetur fames mauris ipsum viverra massa sed dictum. Gravida eu nulla scelerisque lacus. Pellentesque commodo a at nisl ultrices nunc est imperdiet. Tincidunt congue placerat venenatis lectus aliquet lectus pellentesque ipsum. Urna velit aenean at tincidunt ullamcorper enim risus. Elit ligula integer felis orci elit amet consequat diam. Tortor blandit dignissim fringilla scelerisque felis lacus elementum vitae elementum. Magna aliquam nunc purus ut in. A metus massa nulla velit nunc ante justo. Purus nulla quis id sagittis. Purus vitae justo convallis fermentum purus senectus. Non vel vel orci phasellus venenatis nisl. Ut pellentesque id consequat enim felis at vel ridiculus. Nibh rhoncus pellentesque nisi pretium viverra enim. Et quis pharetra vitae mattis sagittis a hendrerit quis velit. Sagittis diam ut id mi urna hendrerit nec facilisis sed. Rutrum condimentum adipiscing scelerisque suspendisse. Placerat lorem at est eget feugiat sed phasellus volutpat. Quam ac diam penatibus pellentesque turpis. Leo blandit donec facilisis dictum posuere. Aliquet dui urna quis euismod id. Egestas bibendum hac sit volutpat. Eu tortor enim cursus aliquam lobortis dolor. Magna risus quam varius eget dolor. Ut enim nec vitae habitant sollicitudin etiam orci. Mi arcu porta cras vulputate nibh tellus morbi platea eu. Sem tristique potenti interdum arcu ut. Dignissim viverra massa semper at morbi et. Lorem sed rhoncus nunc magnis et varius sit quis suspendisse. Mi nunc sit ultrices turpis curabitur. Cursus sit ultrices donec pharetra ut porttitor quis pellentesque. Nibh scelerisque ut scelerisque congue at sed accumsan. Arcu magnis facilisis urna in nibh nullam integer. Nullam magna tristique massa risus iaculis facilisi. Tristique est interdum dignissim sit tincidunt malesuada. Facilisi non bibendum nulla id fames dolor odio iaculis.</string>
+    <string name="food_name">Food Name</string>
+    <string name="title_email_address">Email Address</string>
+    <string name="title_password">Password</string>
+    <string name="hint_sign_in">Sign In</string>
+    <string name="hint_sign_up">Sign Up</string>
+    <string name="title_have_account">Have account?</string>
+    <string name="hint_sign_in_with_google" tools:ignore="UnusedResources">Sign In With Google</string>
+    <string name="logo_culinaryndo_description">Logo Culinaryndo</string>
+    <string name="ed_firstname">Firstname</string>
+    <string name="ed_lastname">Lastname</string>
+    <string name="ed_pasword_verification">Pasword Verification</string>
+    <string name="warning_email_empty">Email tidak boleh kosong!</string>
+    <string name="warning_email_not_valid">Email tidak Valid</string>
+    <string name="warning_password_empty">Password tidak boleh kosong!</string>
+    <string name="warning_firstname_empty">Firstname tidak boleh kosong</string>
+    <string name="warning_3_character">Minimal 3 karakter</string>
+    <string name="warning_username_empty">Username tidak boleh kosong</string>
+    <string name="warning_5_character">Minimal 5 karakter</string>
+    <string name="warning_password_verif">Password tidak sama</string>
+    <string name="welcome">Hello, %1$s \nIndentifier Your Food Today</string>
+    <string name="search_hint">Find your favorite food</string>
+    <string name="title_restaurant_name" tools:ignore="UnusedResources">Restaurant Name</string>
+    <string name="gambar_makanan">Gambar Makanan</string>
+    <string name="btn_bookmark_now">Bookmark Now</string>
+    <string name="warning_passsword_minimun">Password minimal 8 karakter</string>
+    <string name="btn_remove_bookmark">Remove Bookmark</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="Maps">Nearest Location</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#455154</color>
+    <color name="black2">#979797</color>
+    <color name="black3">#A8A7A8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white2">#F9F9F9</color>
+    <color name="seed">#F24B4B</color>
+    <color name="md_theme_light_primary" tools:ignore="UnusedResources">#B81F27</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#FFDAD7</color>
+    <color name="md_theme_light_onPrimaryContainer">#410004</color>
+    <color name="md_theme_light_secondary">#775654</color>
+    <color name="md_theme_light_onSecondary" tools:ignore="UnusedResources">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#FFDAD7</color>
+    <color name="md_theme_light_onSecondaryContainer">#2C1514</color>
+    <color name="md_theme_light_tertiary">#735B2E</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#FFDEA7</color>
+    <color name="md_theme_light_onTertiaryContainer">#271900</color>
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_errorContainer" tools:ignore="UnusedResources">#FFDAD6</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    <color name="md_theme_light_background">#FFFBFF</color>
+    <color name="md_theme_light_onBackground">#201A1A</color>
+    <color name="md_theme_light_surface">#FFFBFF</color>
+    <color name="md_theme_light_onSurface">#201A1A</color>
+    <color name="md_theme_light_surfaceVariant" tools:ignore="UnusedResources">#F5DDDB</color>
+    <color name="md_theme_light_onSurfaceVariant">#534342</color>
+    <color name="md_theme_light_outline">#857371</color>
+    <color name="md_theme_light_inverseOnSurface">#FBEEEC</color>
+    <color name="md_theme_light_inverseSurface">#362F2E</color>
+    <color name="md_theme_light_inversePrimary">#FFB3AE</color>
+    <color name="md_theme_light_shadow" tools:ignore="UnusedResources">#000000</color>
+    <color name="md_theme_light_surfaceTint" tools:ignore="UnusedResources">#B81F27</color>
+    <color name="md_theme_light_outlineVariant" tools:ignore="UnusedResources">#D8C2C0</color>
+    <color name="md_theme_light_scrim" tools:ignore="UnusedResources">#000000</color>
+    <color name="md_theme_dark_primary">#FFB3AE</color>
+    <color name="md_theme_dark_onPrimary">#68000B</color>
+    <color name="md_theme_dark_primaryContainer">#930015</color>
+    <color name="md_theme_dark_onPrimaryContainer">#FFDAD7</color>
+    <color name="md_theme_dark_secondary">#E7BDB9</color>
+    <color name="md_theme_dark_onSecondary">#442928</color>
+    <color name="md_theme_dark_secondaryContainer">#5D3F3D</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFDAD7</color>
+    <color name="md_theme_dark_tertiary">#E2C28C</color>
+    <color name="md_theme_dark_onTertiary">#402D04</color>
+    <color name="md_theme_dark_tertiaryContainer">#594319</color>
+    <color name="md_theme_dark_onTertiaryContainer">#FFDEA7</color>
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_dark_background">#201A1A</color>
+    <color name="md_theme_dark_onBackground">#EDE0DE</color>
+    <color name="md_theme_dark_surface">#201A1A</color>
+    <color name="md_theme_dark_onSurface">#EDE0DE</color>
+    <color name="md_theme_dark_surfaceVariant">#534342</color>
+    <color name="md_theme_dark_onSurfaceVariant">#D8C2C0</color>
+    <color name="md_theme_dark_outline">#A08C8B</color>
+    <color name="md_theme_dark_inverseOnSurface">#201A1A</color>
+    <color name="md_theme_dark_inverseSurface">#EDE0DE</color>
+    <color name="md_theme_dark_inversePrimary">#B81F27</color>
+    <color name="md_theme_dark_shadow" tools:ignore="UnusedResources">#000000</color>
+    <color name="md_theme_dark_surfaceTint" tools:ignore="UnusedResources">#FFB3AE</color>
+    <color name="md_theme_dark_outlineVariant" tools:ignore="UnusedResources">#534342</color>
+    <color name="md_theme_dark_scrim" tools:ignore="UnusedResources">#000000</color>
+    <color name="CustomColor1" tools:ignore="UnusedResources">#885ECE</color>
+</resources>

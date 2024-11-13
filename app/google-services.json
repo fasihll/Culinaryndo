@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450913501567",
+    "project_id": "culinaryndo-8a477",
+    "storage_bucket": "culinaryndo-8a477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450913501567:android:d3446ee02c52940e4f5a4a",
+        "android_client_info": {
+          "package_name": "com.example.culinaryndo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450913501567-8ekt7dlm5eise55phe9kl7kp2bt7g0nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAikrKA7bgJFozL2_2ONNRC7vU2KaC5grk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450913501567-8ekt7dlm5eise55phe9kl7kp2bt7g0nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.DetailFoodActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp">
+            <ImageView
+                android:id="@+id/iv_imageFood"
+                android:layout_width="match_parent"
+                android:layout_height="223dp"
+                tools:src="@tools:sample/avatars"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:contentDescription="@string/gambar_makanan" />
+
+            <TextView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:drawableLeftCompat="@drawable/arrow_left"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="35dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/food_name_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="71dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="-35dp"
+                app:cardElevation="5dp"
+                style="@style/CustomCardViewDetail"
+                android:backgroundTint="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/iv_imageFood">
+                <TextView
+                    android:id="@+id/tv_food_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="35dp"
+                    android:text="@string/food_name"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginHorizontal="35dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/lorem_ipsum"
+                app:layout_constraintTop_toBottomOf="@id/food_name_layout"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center_vertical"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           android:layout_marginHorizontal="35dp"
+           android:layout_marginVertical="10dp">
+           <Button
+               android:id="@+id/btn_bookmark"
+               android:layout_width="0dp"
+               android:layout_height="60dp"
+               android:layout_weight="1"
+               android:text="@string/btn_bookmark_now"
+                />
+           <androidx.cardview.widget.CardView
+               android:id="@+id/btn_maps"
+               android:layout_width="wrap_content"
+               android:layout_height="60dp"
+               android:layout_marginStart="10dp"
+               android:backgroundTint="?attr/colorPrimary"
+               app:cardCornerRadius="30dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:foreground="?android:attr/selectableItemBackgroundBorderless">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/mdi_google_maps"
+                   android:layout_margin="20dp"
+                   />
+           </androidx.cardview.widget.CardView>
+       </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
