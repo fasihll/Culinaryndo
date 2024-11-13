@@ -12,7 +12,8 @@ Change filename in ui/scan/ImageClassifierHelpet.kt
 val modelName: String = "filename.tflite",
 ```
 
-## Setup Api Config in Data/Network/ApiConfig
+## Setup [API](https://github.com/fasihll/culinaryndo-web) Config in Data/Network/ApiConfig
+
 Local with terminal
 ```bash
 http://10.0.2.2:{Your Port}/
